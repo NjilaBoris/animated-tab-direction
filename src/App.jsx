@@ -49,6 +49,7 @@ const App = () => {
         onClick={() => setDirection((direction) => !direction)}
         style={{
           rotate: direction ? 90 : 0,
+          transition: "rotate 0.2s ease-in-out",
         }}
         className="bg-neutral-200 p-3 hover:bg-neutral-400/20 transition-all duration-150  cursor-pointer rounded-2xl absolute bottom-14 right-50"
       >
